@@ -1,8 +1,0 @@
-{
-  "id": "arduino_adalight_gravity",
-  "name": "Arduino Adalight Gravity",
-  "author": "Gravityaries7174",
-  "version": "1.0.5",
-  "type": "device",
-  "main": "adalight.js"
-}
