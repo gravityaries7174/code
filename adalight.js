@@ -20,3 +20,7 @@ export function Render(colors) {
     packet.push(...colors);
     device.write(packet, packet.length);
 }
+
+export function Shutdown() {
+    device.write([0x41, 0x64, 0x61, 0x00, 0x00, 0x00], 6);
+}
